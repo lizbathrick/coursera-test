@@ -1,0 +1,122 @@
+/********** Module 2 assignment styles **********/
+
+
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-color: white;
+font-family: Helvetica, Arial;
+}
+
+
+h1 {
+  margin: auto;
+  font-size: 175%;
+  text-align: center;
+  
+}
+
+h2 {
+  margin: auto;
+  font-size: 125%;
+  border-style: solid; 
+}
+
+.menuBoxSection {
+  background-color: #FFFFFF;
+  border-color: black;
+  border-width: 1;
+  border-style: solid;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  height: 160px;
+  margin-left: 20px;
+  margin-right: auto;
+width: auto;
+}
+
+
+.titleBox {
+	float: right;
+	width: 30%;
+	text-align: center;
+	font-size: 125%;
+	border-width: 1;
+  margin-top: -2px;
+  margin-right: -2px;
+	border-color: black;
+	border-style: solid;
+
+}
+
+.chickDiv {
+	background-color: #fccd67;
+}
+
+
+.beefDiv {
+	background-color: lightcoral;
+}
+
+.sushiDiv {
+	background-color: #e5aef4;
+}
+
+
+p {
+  background-color: #FFFFFF;
+  color: black;
+  width: 95%;
+  height: 120px;
+  padding-left: 5px;
+  padding-top: 30px;
+  font-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Simple Responsive Framework. */
+.row {
+	/*position: relative;*/
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  display: flex;
+ }
+
+
+/* For desktops, create three equal columns  */
+@media screen and (min-width: 992px){
+ .column {
+  float: left;
+    width: 33%;
+      flex-grow: 1; 
+    }
+}
+
+
+
+/* On screens that are no more than 991 px show only two columns */
+@media screen and (max-width: 991px) {
+  .column {
+    float: left;
+      width: 50%;
+        flex-grow: 1;
+  }
+}
+
+/* For screenslike phones, max should be 767 px wide and columns will stack */
+ @media screen and (max-width: 767px) {
+  .column {
+    float: left;
+      width: 100%;
+        flex-grow: 1;
+  }
+}
+
+
