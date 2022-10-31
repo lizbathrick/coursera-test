@@ -1,0 +1,218 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #303030;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+color: #23E3EF;
+text-shadow: 2px 2px #505050;
+  font-size: 1.5em;
+}
+
+h2 {
+color: #fff;
+  font-size: 1.4em;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+p {
+  font-size: .9em;
+}
+ .container-fluid  {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    
+  }
+
+  .row {
+    margin: .5px;
+    background-color: #606060;
+  
+  }
+.navbar {
+  border-style: none;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #303030;
+  color: #fff;
+  border-radius: 0;
+  border-bottom-width: 1;
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+}
+
+ 
+.navbar-brand {
+  padding-top: 20px;
+}
+
+
+.navbar-brand h1 { 
+  font-family: 'Montserrat', serif;
+  color: #fff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header
+{
+ padding-bottom: 10px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#nav-list li:last-child a {
+  border-bottom-style: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+  text-align: left;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*
+.menuBorderTop {
+
+  border-width:1;
+  border-style:solid;
+  border-color: #fff;
+}
+*/
+.container-fluid  {
+  border: none;
+  align-content: center;
+}
+
+.headerColor {
+  background-color: #303030;
+ }
+.borderNone {
+  border-bottom-style: none;
+  border-style: none;
+}
+
+.menuColor {  background-color: #505050;}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container-fluid {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+  }
+   /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .container-fluid  {
+    margin: 20px;
+    padding: 10px;
+    
+  }
+/*.navbar-brand {
+  margin-left: -20px;
+}
+*/
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.container-fluid  {
+    margin: 10px;
+    padding: 10px;
+    
+  }
+.navbar-brand {
+  margin-left: -20px;
+ }
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+    
+  }
+
+  .container-fluid  {
+    margin: 10px;
+    padding: 10px;
+    
+  }
+
+  .navbar-brand h1 { /* Business name */
+    padding-top: 10px;
+  }
+
+  .container-fluid {
+    padding: 10px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fff;
+  }
+  
+ } 
+  /* End Header */
+
+ 
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Business name */
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+#header-nav {
+  border-bottom-width: 1;
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+}
+  .
+  /* End Header */
+  
+ 
+}
